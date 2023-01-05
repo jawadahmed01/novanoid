@@ -1,0 +1,629 @@
+/* =============================================================================================================
+============================Navbar and Hero Section Styling ======================================================================== */
+/* mavbar Menu */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	height: 60px;
+	align-items: center;
+}
+
+.menu ul {
+	display: flex;
+}
+
+.menu ul li {
+	padding: 0px 15px;
+}
+
+.menu ul li a {
+	color: var(--white-text);
+	text-transform: uppercase;
+}
+
+/* Navbar Logo style */
+.nav-logo h2 {
+	font-size: 35px;
+	color: var(--white-text);
+}
+
+.nav-logo h2 span {
+	background: var(--white-bg);
+	color: var(--black-text);
+	margin-right: 5px;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+/* Hero Section Start */
+.hero {
+	background: url('../img/header-1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.hero-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	padding: 240px 0px;
+
+}
+
+.hero-section h1 {
+	color: var(--white-text);
+	text-transform: uppercase;
+}
+
+.hero-section p {
+	color: var(--white-text);
+	text-transform: uppercase;
+}
+
+/* =============================================================================================================
+============================Next Section start======================================================================== */
+.index-grid-one {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+	grid-gap: 100px;
+}
+
+.index-grid-one-item-grid {
+	display: flex;
+	align-items: center;
+}
+
+.primary-icon-color {
+	padding-right: 20px;
+	color: var(--primary);
+	font-size: 22px;
+}
+
+.index-grid-one-item p {
+	transform: translateX(43px);
+	margin-top: 15px;
+}
+
+/* =============================================================================================================
+============================Work grid Section start======================================================================== */
+
+.index-grid-two {
+	display: grid;
+	grid-template-columns: 1fr 0.5fr 0.6fr;
+	grid-gap: 10px;
+}
+
+.work-main-div {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.line {
+	boder: 1px solid var(--primary);
+	width: 50px;
+	height: 5px;
+	background: var(--primary);
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.work-section {
+	background: #f3f4f8;
+}
+
+/* =============================================================================================================
+============================Work grid Section start======================================================================== */
+.index-grid-three-item span {
+	color: var(--primary);
+	font-size: 22px;
+	text-align: center;
+}
+
+.index-grid-three {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-column-gap: 30px;
+	grid-row-gap: 50px;
+
+}
+
+.index-grid-three-item {
+	text-align: center;
+}
+
+.line-two {
+	boder: 1px solid var(--primary);
+	width: 50px;
+	height: 2px;
+	background: color(display-p3 0.50196 0.50196 0.50196);
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.index-grid-three-item div {
+	margin-top: 15px;
+}
+
+/* =============================================================================================================
+============================WE  PARALLAX BACKGROUNDS. Section start======================================================================== */
+.parallex-section {
+	background: url('../img/parallax.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 60px 0px;
+	background-attachment: fixed;
+}
+
+.parallex-main-div {
+	width: 55%;
+	margin: auto;
+	text-align: center;
+}
+
+.parallex-main-div h2 {
+	color: var(--white-text);
+}
+
+.parallex-main-div .heart-icon {
+	font-size: 34px;
+	color: #ed5564;
+	padding: 5px;
+}
+
+.parallex-main-div p {
+	color: var(--white-text);
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+.parallex-btn .icon-span {
+	color: var(--white-text);
+	font-size: 12px;
+	transition: 0.3s ease;
+	padding: 10px;
+}
+
+/* =============================================================================================================
+============================OUR TEAM Section start======================================================================== */
+.index-grid-fourth {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 30px;
+}
+
+.content {
+	position: relative;
+	height: 100%;
+
+
+}
+
+.image {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	height: 80%;
+}
+
+.overlay {
+	position: absolute;
+	background: var(--primary);
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 80%;
+	width: 100%;
+	color: white;
+	opacity: 0;
+	transition: 1s;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.content:hover .overlay {
+	opacity: 1;
+
+}
+
+.social-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.social-icon i {
+	padding: 0px 10px;
+	font-size: 25px;
+}
+
+.card-text {
+	padding-top: 20px;
+}
+
+/* =============================================================================================================
+============================OUR TEAM Section start======================================================================== */
+.contact-bg {
+	background: #f3f4f8;
+}
+
+.contact {
+	width: 60%;
+	margin: auto;
+}
+
+.content-text {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+	grid-gap: 30px;
+}
+
+.contact-grid-item {
+	text-align: center;
+}
+
+.contact-foam {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+.contact-foam input {
+	margin-bottom: 20px;
+	height: 40px;
+	border: navajowhite;
+	padding: 15px;
+	font-size: 16px;
+}
+
+textarea {
+	height: 200px;
+	padding: 15px;
+	border: none;
+	font-size: 16px;
+}
+
+input#contact-name {
+	width: 49.7%;
+}
+
+element.style {}
+
+button#send {
+	height: 45px;
+	background: var(--primary);
+	padding: 15px 0px;
+	border: navajowhite;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+/* =============================================================================================================
+============================OUR TEAM Section start======================================================================== */
+.footer {
+	background: #343a43;
+	color: white;
+	margin-top: 60px;
+}
+
+.footer-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+	grid-gap: 30px;
+
+}
+
+.footer-grid-item-right p {
+	text-align: right;
+	color: white;
+}
+
+.footer-grid-item-center {
+	text-align: center;
+}
+
+.footer-grid-item-center i {
+	padding: 0px 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.footer-container {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+/* =============================================================================================================
+============================Responsive design 992px======================================================================
+=========================================================================================================================== */
+
+@media(max-width:992px) {
+
+	/* =============================================================================================================
+============================Navbar and Hero Section Styling ======================================================================== */
+	/* mavbar Menu */
+	.navbar {
+		display: block;
+		width: 100%;
+		height: 40px;
+		background: var(--black-bg);
+	}
+
+	.menu {
+		background: var(--black-text);
+		width: 100%;
+		display: none;
+		transition: 1s all;
+	}
+
+	.menu ul {
+		display: block;
+		transition: 1s all;
+	}
+
+	.menu ul li {
+		padding: 13px 15px;
+	}
+
+	/* Navbar Logo style */
+	.nav-logo h2 {
+		font-size: 20px;
+	}
+
+	.nav-logo {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 10px;
+	}
+
+	.nav-logo span {
+		font-size: 20px;
+		color: var(--white-text);
+	}
+
+	/* Mobile Icon */
+	.show_menu {
+		display: block;
+		transition: 1s all;
+		position: fixed;
+	}
+
+	/* Hero Section Start */
+	.hero-section {
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+		padding: 100px 0px;
+	}
+
+	/* =============================================================================================================
+============================Next Section start======================================================================== */
+	.index-grid-one {
+		grid-gap: 40px;
+	}
+
+	.index-grid-one-item-grid span {
+		font-size: 18px;
+	}
+
+	.index-grid-one-item p {
+		transform: translateX(0px);
+	}
+
+	/* =============================================================================================================
+============================Work grid Section start======================================================================== */
+	.index-grid-two {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.parallex-main-div {
+		width: 100%;
+	}
+
+	.contact {
+		width: 100%;
+		margin: auto;
+		padding: 0px 10px;
+	}
+
+	input#contact-name {
+		width: 100%;
+	}
+
+	.footer-grid-item-right p {
+		text-align: center;
+	}
+
+	.footer-grid-item {
+		text-align: center;
+	}
+
+	.nav-logo {
+		align-items: center;
+		padding: 5px 10px
+
+	}
+}
+
+	/* =============================================================================================================
+============================Navbar start======================================================================== */
+	* {
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		width: 100%;
+		height: 100%;
+	}
+
+	.container {
+		width: 100%;
+		margin: auto;
+		max-width: 1200px;
+		padding: 60px 0px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	:root {
+		--black-text: black;
+		--white-text: white;
+		--black-bg: black;
+		--white-bg: white;
+		--primary: #48cfae;
+	}
+
+	/* =============================================================================================================
+============================All Typography start======================================================================== */
+	.heading-1-48px {
+		font-family: sans-serif;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 1.5;
+	}
+
+	.heading-2-25px {
+		font-family: sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 1.5;
+		text-transform: uppercase;
+		color: #434a54;
+	}
+
+	.heading-2-28px {
+		font-family: sans-serif;
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 1.5;
+		text-transform: uppercase;
+		color: #434a54;
+	}
+
+	.heading-3-18px {
+		font: 700 18px 'Yanone Kaffeesatz', sans-serif;
+		text-transform: uppercase;
+		color: #656d78;
+	}
+
+	.paragraph-16px {
+		font-family: sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+
+	.paragraph-14px {
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #656d78;
+		letter-spacing: 0.9px;
+	}
+
+	/* =============================================================================================================
+============================All Button start======================================================================== */
+	.primary-btn {
+		color: var(--white-text);
+		padding: 10px 30px;
+		border-radius: 5px;
+		transition: 0.3s ease;
+		border: 2px solid rgba(255, 255, 255, .5);
+
+	}
+
+	.primary-btn .read-icon {
+		font-size: 16px;
+	}
+
+	.primary-btn:hover {
+		background: rgba(255, 255, 255, .5);
+		border: 2px solid white;
+	}
+
+
+
+
+
+
+
+
+
+
+	/* =============================================================================================================
+============================Responsive design 992px======================================================================
+=========================================================================================================================== */
+
+
+	@media(max-width:992px) {
+
+		.container {
+			width: 100%;
+			margin: auto;
+			padding: 40px 10px;
+		}
+
+		/* =============================================================================================================
+============================All Typography start======================================================================== */
+		.heading-1-48px {
+			font-size: 30px;
+		}
+
+		.heading-2-28px {
+			font-size: 20px;
+		}
+
+		.heading-3-18px {
+			font: 700 14px 'Yanone Kaffeesatz', sans-serif;
+		}
+
+		.paragraph-16px {
+			font-size: 13px;
+		}
+
+		.heading-2-25px {
+			font-size: 16px;
+
+		}
+
+		.paragraph-14px {
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+
+	}
